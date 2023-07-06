@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #edffde;
+}
+
+
+.container {
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+    font-family: system-ui;
+}
+
+.info {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 200px 50px;
+    width: 50%;
+}
+
+.txt-1 {
+    color: #ececec;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.info h2 {
+    color: #ececec;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.info hr {
+    width: 55px;
+    border: 4px solid #ececec;
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+
+.txt-2 {
+    color: #ececec;
+    font-size: 18px;
+}
+
+.form {
+    padding: 200px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.form h2 {
+    color: #4f6d37;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 16px;
+    color: #c4c3c3;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    outline: none;
+    border-color: #4f6d37;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.inputs a {
+    color: #4f6d37;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.errorcontent p{
+    color: red ;
+
+}
+
+.submit {
+    background-color: #4f6d37;
+    padding: 15px;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.register-partners {
+    
+}
+
+
+@media (max-width: 990px) {
+    .container {
+        width: 350px;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    .info {
+        display: none;
+    }
+    .form {
+        width: 100%;
+        padding: 30px;
+    }
+    .form h2 {
+        margin-top: 40px;
+    }
+}
+
+
+/* EDITOR DE HOME */

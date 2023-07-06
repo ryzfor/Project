@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login RCC</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <div style = "background-image: url(img/photo_Entrada.jpg)" class="info">
+
+            <p class="txt-1">
+                Rinconada Country Club
+            </p>
+
+            <h2>Bienvenido de nuevo</h2>
+            <hr>
+
+            <p class="txt-2">
+                Ingresa el usuario y contraseña para tener acceso a la gestión de los socios e invitados
+            </p>
+        </div>
+
+
+        <form class="form" action="validar.php" method="POST">
+
+            <h2>Iniciar Sesión</h2>
+
+            <div class="inputs">
+
+                <input type="text" class="box" placeholder="ingresa tu usuario" name="usuario">
+                <input type="password" class="box" placeholder="ingresa tu contraseña" name="password">
+                <div id="errorcontent" class="errorcontent">
+                    
+                </div>
+                <input type="submit" value="Iniciar Sesión" class="submit">
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
